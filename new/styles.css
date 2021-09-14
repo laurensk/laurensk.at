@@ -37,7 +37,7 @@ p {
 .lk-subtitle {
   font-size: 1em;
   margin-top: -0.2em;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 .lk-image {
@@ -53,11 +53,23 @@ p {
   border: 1px solid #555555;
   border-radius: 8px;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
-  margin: 0 0.5em 0 0.5em;
+  margin: 1em 0.5em 0 0.5em;
   padding: 1.5em;
 }
 
+.lk-card-icon {
+  width: 20px;
+  margin-left: 0.5em;
+}
+
 .lk-actions {
+  text-decoration: none;
+  color: #fff;
+}
+
+.lk-actions:hover {
+  color: #e8eaed;
+  cursor: pointer;
 }
 
 .lk-actions-title {
