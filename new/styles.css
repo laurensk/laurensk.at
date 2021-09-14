@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   font-family: "Inter-LK" !important;
   background: linear-gradient(225deg, rgba(42, 42, 42, 1) 0%, rgba(17, 17, 17, 1) 100%);
@@ -82,4 +86,31 @@ p {
   right: 4em;
   font-size: 12px !important;
   margin: 0 !important;
+}
+
+.lk-spacer {
+  margin-top: 8em;
+  height: 8em;
+  width: 100%;
+  border-top: 3px solid #555555;
+}
+
+.lk-footer {
+  margin-top: 4em;
+  border-top: 1px solid #555555;
+  height: 8em;
+  background-color: #2a2a2a;
+}
+
+.lk-link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #9b9b9b;
+  font-size: 14px;
+}
+
+.lk-link-a:hover {
+  cursor: pointer;
+  color: #fff;
 }
