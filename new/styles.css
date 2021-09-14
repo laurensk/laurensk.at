@@ -53,11 +53,15 @@ p {
   border: 1px solid #555555;
   border-radius: 8px;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
-  margin: 1em 0.5em 0 0.5em;
+  margin: 2em 0.5em 0 0.5em;
   padding: 1.5em;
+  max-width: 25em;
 }
 
 .lk-card-icon {
+  position: absolute;
+  right: 1.2em;
+  bottom: 0.7em;
   width: 20px;
   margin-left: 0.5em;
 }
@@ -75,7 +79,7 @@ p {
 .lk-actions-title {
   position: absolute;
   bottom: 1em;
-  right: 2em;
+  right: 4em;
   font-size: 12px !important;
   margin: 0 !important;
 }
